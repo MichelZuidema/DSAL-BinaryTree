@@ -1,0 +1,16 @@
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.exe
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.deps.json
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.runtimeconfig.json
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.runtimeconfig.dev.json
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.dll
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\ref\DSAL-BinaryTree.dll
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\bin\Debug\net5.0\DSAL-BinaryTree.pdb
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.csproj.AssemblyReference.cache
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.AssemblyInfoInputs.cache
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.AssemblyInfo.cs
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.csproj.CoreCompileInputs.cache
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.dll
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\ref\DSAL-BinaryTree.dll
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.pdb
+D:\Code\C#\DSAL-BinaryTree\DSAL-BinaryTree\DSAL-BinaryTree\obj\Debug\net5.0\DSAL-BinaryTree.genruntimeconfig.cache

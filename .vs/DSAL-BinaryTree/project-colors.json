@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "82b1a91e-4bbd-41b2-a94f-61fc834a2dd4": {
+      "ProjectGuid": "82b1a91e-4bbd-41b2-a94f-61fc834a2dd4",
+      "DisplayName": "DSAL-BinaryTree",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
