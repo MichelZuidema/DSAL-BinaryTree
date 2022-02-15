@@ -78,18 +78,23 @@ namespace DSAL_BinaryTree
         }
 
         //TODO: Fix delete method
+        // Might not need T root as this.Key might be the root key.
         public Node<T> Delete(T k) {
-            var delNode = GetNode(k) as Node<T>;
-            
+            Node<T> delNode = GetNode(k);
 
-            // Go the right child
-            // Look till .Left is null == smallest node.
             Node<T> swapNode = null;
-            Node<T> currentNode = delNode.Right;
+            Node<T> currentNode = this;
             bool found = false;
             while (!found)
             {
-                currentNode = currentNode.Left;
+                if(currentNode.Right != null)
+                {
+                    currentNode = currentNode.Right;
+                } else
+                {
+                    delNode.Key = currentNode.Key;
+                    found = true;
+                }
             }
 
             Console.WriteLine("Lowest found!" + swapNode.Key);
