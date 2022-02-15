@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Michel Z\\.nuget\\packages\\": {},
+    "C:\\Users\\Michel Zuidema\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
+      "projectUniqueName": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
       "projectName": "DSAL-BinaryTree",
-      "projectPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
-      "packagesPath": "C:\\Users\\Michel Z\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\obj\\",
+      "projectPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
+      "packagesPath": "C:\\Users\\Michel Zuidema\\.nuget\\packages\\",
+      "outputPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michel Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michel Zuidema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -59,6 +59,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

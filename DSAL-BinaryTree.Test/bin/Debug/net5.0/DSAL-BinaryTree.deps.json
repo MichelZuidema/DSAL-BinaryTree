@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DSAL-BinaryTree/1.0.0": {
+        "runtime": {
+          "DSAL-BinaryTree.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSAL-BinaryTree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

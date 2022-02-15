@@ -5,7 +5,12 @@
       "ProjectGuid": "82b1a91e-4bbd-41b2-a94f-61fc834a2dd4",
       "DisplayName": "DSAL-BinaryTree",
       "ColorIndex": 0
+    },
+    "b1961638-10bd-4e6b-b374-b615a85d0f5c": {
+      "ProjectGuid": "b1961638-10bd-4e6b-b374-b615a85d0f5c",
+      "DisplayName": "DSAL-BinaryTree.Test",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

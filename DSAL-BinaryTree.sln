@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAL-BinaryTree", "DSAL-BinaryTree\DSAL-BinaryTree.csproj", "{82B1A91E-4BBD-41B2-A94F-61FC834A2DD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAL-BinaryTree.Test", "DSAL-BinaryTree.Test\DSAL-BinaryTree.Test.csproj", "{B1961638-10BD-4E6B-B374-B615A85D0F5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{82B1A91E-4BBD-41B2-A94F-61FC834A2DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B1A91E-4BBD-41B2-A94F-61FC834A2DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B1A91E-4BBD-41B2-A94F-61FC834A2DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1961638-10BD-4E6B-B374-B615A85D0F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1961638-10BD-4E6B-B374-B615A85D0F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1961638-10BD-4E6B-B374-B615A85D0F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1961638-10BD-4E6B-B374-B615A85D0F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

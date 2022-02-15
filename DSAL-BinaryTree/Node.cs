@@ -10,14 +10,14 @@ namespace DSAL_BinaryTree
 
         public void Insert(T k) 
         {
-            if(this.Key.CompareTo(k) > 0) {
+            if(k.CompareTo(this.Key) > 0) {
                 // Move Right
                 if (this.Right == null) {
                     this.Right = new Node<T>() { Key = k };
                 } else {
                     this.Right.Insert(k);
                 }
-            } else if(this.Key.CompareTo(k) < 0) {
+            } else if(k.CompareTo(this.Key) < 0) {
                 // Move Left
                 if(this.Left == null) {
                     this.Left = new Node<T>() { Key = k };
@@ -27,29 +27,29 @@ namespace DSAL_BinaryTree
             }
         }
 
-        public T GetNode(T k)
+        public Node<T> GetNode(T k)
         {
-            if(this.Key == null)
-                return default(T);
+            if (this.Key == null)
+                return null;
 
-            if(this.Key.CompareTo(k) > 0) {
+            if(k.CompareTo(this.Key) > 0) {
                 if(this.Right != null) {
                     return this.Right.GetNode(k);
                 } else {
-                    return default(T);
+                    return null;
                 }
             }
                 
 
-            if(this.Key.CompareTo(k) < 0)  {
+            if(k.CompareTo(this.Key) < 0)  {
                 if(this.Left != null) {
                     return this.Left.GetNode(k);
                 } else {
-                    return default(T);
+                    return null;
                 }
             }
 
-            return k;
+            return this;
         }
 
         public bool Search(T k)
@@ -57,7 +57,7 @@ namespace DSAL_BinaryTree
             if(this.Key == null)
                 return false;
 
-            if(this.Key.CompareTo(k) > 0) {
+            if(k.CompareTo(this.Key) > 0) {
                 if(this.Right != null) {
                     return this.Right.Search(k);
                 } else {
@@ -66,7 +66,7 @@ namespace DSAL_BinaryTree
             }
                 
 
-            if(this.Key.CompareTo(k) < 0)  {
+            if(k.CompareTo(this.Key) < 0)  {
                 if(this.Left != null) {
                     return this.Left.Search(k);
                 } else {
@@ -77,13 +77,24 @@ namespace DSAL_BinaryTree
             return true;
         }
 
-        public void Delete(T k) {
-            Node<T> delNode = GetNode(k);
+        //TODO: Fix delete method
+        public Node<T> Delete(T k) {
+            var delNode = GetNode(k) as Node<T>;
+            
 
-
-
-            // Go the right chuld
+            // Go the right child
             // Look till .Left is null == smallest node.
+            Node<T> swapNode = null;
+            Node<T> currentNode = delNode.Right;
+            bool found = false;
+            while (!found)
+            {
+                currentNode = currentNode.Left;
+            }
+
+            Console.WriteLine("Lowest found!" + swapNode.Key);
+
+            return null;
         }
     }
 }
