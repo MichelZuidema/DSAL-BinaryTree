@@ -5915,23 +5915,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michel Zuidema\\.nuget\\packages\\": {},
+    "C:\\Users\\Michel Z\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\DSAL-BinaryTree.Test.csproj",
+      "projectUniqueName": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\DSAL-BinaryTree.Test.csproj",
       "projectName": "DSAL-BinaryTree.Test",
-      "projectPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\DSAL-BinaryTree.Test.csproj",
-      "packagesPath": "C:\\Users\\Michel Zuidema\\.nuget\\packages\\",
-      "outputPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\obj\\",
+      "projectPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\DSAL-BinaryTree.Test.csproj",
+      "packagesPath": "C:\\Users\\Michel Z\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michel Zuidema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michel Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5945,8 +5945,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {
-              "projectPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj"
+            "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {
+              "projectPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj"
             }
           }
         }

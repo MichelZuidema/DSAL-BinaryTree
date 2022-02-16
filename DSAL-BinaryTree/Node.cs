@@ -77,29 +77,71 @@ namespace DSAL_BinaryTree
             return true;
         }
 
-        //TODO: Fix delete method
-        // Might not need T root as this.Key might be the root key.
-        public Node<T> Delete(T k) {
-            Node<T> delNode = GetNode(k);
-
-            Node<T> swapNode = null;
-            Node<T> currentNode = this;
-            bool found = false;
-            while (!found)
+        public Node<T> Delete(Node<T> root, T key)
+        {
+            if(!Search(key))
             {
-                if(currentNode.Right != null)
+                return null;
+            }
+
+            if (root == null)
+            {
+                return root;
+            }
+            else if (key.CompareTo(root.Key) < 0)
+            {
+                root.Left = root.Left.Delete(root.Left, key);
+            }
+            else if (key.CompareTo(root.Key) > 0)
+            {
+                root.Right = root.Right.Delete(root.Right, key);
+            }
+            else
+            {
+                if (root.Left == null && root.Right == null)
                 {
-                    currentNode = currentNode.Right;
+                    return null;
+                } else if(root.Left == null)
+                {
+                    return root.Right;
+                } else if(root.Right == null)
+                {
+                    return root.Left;
                 } else
                 {
-                    delNode.Key = currentNode.Key;
-                    found = true;
+                    Node<T> tempKey = root.Right.getMinimum(root.Right);
+                    root.Key = tempKey.Key;
+                    root.Right = root.Right.Delete(root.Right, tempKey.Key);
                 }
             }
 
-            Console.WriteLine("Lowest found!" + swapNode.Key);
+            return root;
+        }
 
-            return null;
+        private Node<T> getMinimum(Node<T> node)
+        {
+            if(node.Left != null)
+            {
+                return node.Left.getMinimum(node.Left);
+            } else
+            {
+                return node;
+            }
+        }
+
+        public void printAllNodes(Node<T> t)
+        {
+            if (t.Left != null)
+            {
+                t.Left.printAllNodes(t.Left);
+            }
+
+            Console.Write(" " + t.Key);
+
+            if (t.Right != null)
+            {
+                t.Right.printAllNodes(t.Right);
+            }
         }
     }
 }

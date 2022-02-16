@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ceN69ZW8wivTHViN/e+elCGQQCPEESgLhpY1Atd+sNtTHKb9hLa4c+Z44q8X0y9t3X6DhBqmu0I68ejluAJjSg==",
+  "dgSpecHash": "SzuhFyUkM7AHEGQ88o/GjVX72gcYlXt/acx4YjiCaUcP3gqYCD4SZ3e/96GCeM2A1xqxOQbEC87IB7wktsnH8w==",
   "success": true,
-  "projectFilePath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Michel Zuidema\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

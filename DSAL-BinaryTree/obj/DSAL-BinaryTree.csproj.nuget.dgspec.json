@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {}
+    "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {}
   },
   "projects": {
-    "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {
+    "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
+        "projectUniqueName": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
         "projectName": "DSAL-BinaryTree",
-        "projectPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
-        "packagesPath": "C:\\Users\\Michel Zuidema\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\obj\\",
+        "projectPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree.csproj",
+        "packagesPath": "C:\\Users\\Michel Z\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\C#\\DSAL-BinaryTree\\DSAL-BinaryTree\\DSAL-BinaryTree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Michel Zuidema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Michel Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,12 +52,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

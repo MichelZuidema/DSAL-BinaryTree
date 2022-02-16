@@ -17,7 +17,12 @@ namespace DSAL_BinaryTree
             tree.Insert(7);
             tree.Insert(11);
 
-            tree.Delete(303);
+            tree.printAllNodes(tree);
+
+            tree.Delete(tree, 321321);
+
+            Console.WriteLine();
+            tree.printAllNodes(tree);
 
             Console.WriteLine();
         }

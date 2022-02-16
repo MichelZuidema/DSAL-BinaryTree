@@ -58,6 +58,7 @@ namespace DSAL_BinaryTree.Test
 
             Node<int> getNode = tree.GetNode(nodeKey);
 
+            Assert.NotNull(getNode);
             Assert.Equal(nodeKey, getNode.Key);
         }
 
@@ -71,7 +72,7 @@ namespace DSAL_BinaryTree.Test
         }
 
         [Fact]
-        public void Seach_IntegerKeyThatDoesExist_ReturnsTrue()
+        public void Search_IntegerKeyThatDoesExist_ReturnsTrue()
         {
             int key = 50;
             Node<int> tree = new Node<int>() { Key = 100 };
@@ -81,12 +82,40 @@ namespace DSAL_BinaryTree.Test
         }
 
         [Fact]
-        public void Seach_IntegerKeyThatDoesntExist_ReturnsFalse()
+        public void Search_IntegerKeyThatDoesntExist_ReturnsFalse()
         {
             Node<int> tree = new Node<int>() { Key = 100 };
             tree.Insert(50);
 
             Assert.False(tree.Search(312321));
+        }
+
+        [Fact]
+        public void Delete_IntegerKeyThatExist_NodeDoesntExist()
+        {
+            int keyToDelete = 30;
+            Node<int> tree = new Node<int>() { Key = 100 };
+            tree.Insert(50);
+            tree.Insert(keyToDelete);
+            tree.Insert(200);
+
+            Assert.True(tree.Search(keyToDelete));
+
+            tree.Delete(tree, keyToDelete);
+
+            Assert.False(tree.Search(keyToDelete));
+        }
+
+        [Fact]
+        public void Delete_IntegerKeyThatDoesntExist_DoesntDoAnything()
+        {
+            Node<int> tree = new Node<int>() { Key = 100 };
+
+            Assert.True(tree.Search(100));
+
+            tree.Delete(tree, 3211);
+
+            Assert.True(tree.Search(100));
         }
     }
 }
